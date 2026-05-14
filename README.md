@@ -45,8 +45,8 @@ Errors are concentrated between adjacent severity stages (e.g. S1↔S0, S4↔S3)
 ## Setup
 
 ```bash
-git clone https://github.com/yourusername/OA-scRNA-severity-mlp.git
-cd OA-scRNA-severity-mlp
+git clone https://github.com/yourusername/OA-scRNA-severity-nn.git
+cd OA-scRNA-severity-nn
 
 python -m venv venv
 venv\Scripts\activate        # Windows
@@ -86,7 +86,7 @@ Loads the latest checkpoint, prints per-class F1, saves confusion matrix to `res
 ## Project Structure
 
 ```
-oa-scRNA-severity-mlp/
+oa-scRNA-severity-nn/
 ├── main.py                  # entry point — runs training
 ├── requirements.txt
 ├── data/
