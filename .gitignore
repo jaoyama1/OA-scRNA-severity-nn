@@ -1,3 +1,12 @@
+# Processed data
+data/processed/
+
+# Model checkpoints
+lightning_logs/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+notebooks/.ipynb_checkpoints/
 data/
 venv/
 
